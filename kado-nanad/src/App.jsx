@@ -1,8 +1,5 @@
 import { useState, useRef, useEffect } from "react";
 
-// ─────────────────────────────────────────
-// GANTI NAMA FILE SESUAI FOLDER PUBLIC KAMU
-// ─────────────────────────────────────────
 const LINK_MUSIK = "/music.mp3";
 
 const FOTO_SLIDE2 = "/slide2.png"; 
@@ -130,7 +127,7 @@ function SinglePhoto({ src, caption }) {
       <div className="relative rounded-2xl overflow-hidden border-4 border-white shadow-lg shadow-sky-200/60">
         <img
           src={src}
-          alt="Kenangan kita"
+          alt="memories"
           className="w-full object-cover"
           style={{ maxHeight: "220px" }}
         />
